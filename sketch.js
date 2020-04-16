@@ -65,6 +65,8 @@ function mousePressed() {
 
 function draw() {
   background(51);
+  ctx.fillStyle = "white";
+ctx.fillRect(0, 0, canvas.width, canvas.height);
   for (var i = 0; i < data.length; i++) {
     var x = map(data[i].x, 0, 1, 0, width);
     var y = map(data[i].y, 0, 1, height, 0);
