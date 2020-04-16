@@ -9,7 +9,7 @@ var a=0;
 var b_2=0;
 var c=0;
 function setup() {
-  createCanvas(800, 800);
+  createCanvas(400, 400);
 
 }
 
